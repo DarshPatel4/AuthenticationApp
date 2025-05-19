@@ -15,7 +15,6 @@ import { join } from 'path';
       playground: true,
     }),
     MongooseModule.forRoot(
-      //'mongodb+srv://Darshpatel11:D@rsh1101@cluster0.ches0eu.mongodb.net/userDB?retryWrites=true&w=majority&appName=Cluster0',
       'mongodb://localhost:27017/',
     ),
     UserModule,
